@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+//Write a c program to take a number as an input from the user find the count of digits
+#include<stdio.h>
+int main()
+{
+	int num,digit=0;
+	printf("\nEnter the value of num = ");
+	scanf("%d",&num);//153
+	
+	while(num!=0)
+	{
+		digit++;//3
+		num = num/10;
+	}
+	printf("\nThis is %d digit number",digit);
+	return 0;
+}
+=======
 //Write a c program to take one input from the user and check whether the number is prime or not?
 #include<stdio.h>
 int main()
@@ -23,3 +41,4 @@ int main()
 	}
 	return 0;
 }
+>>>>>>> 60e124a780327d6967d954f79f1ad14e1cf2eb9d

@@ -1,17 +1,27 @@
+/*
+Write a c program to take row and column number from the user and print the following pattern.
+
+* * * *
+* * * *
+* * * *
+* * * *
+*/
 #include<stdio.h>
 int main()
 {
-	int terms,i,num1=0,num2=1,num3;
-	printf("\nEnter the terms = ");
-	scanf("%d",&terms);
-	printf("\nFibonacci series = %d %d ",num1,num2);
+	int row,col,i,j;
+	printf("\nEnter the number of rows = ");
+	scanf("%d",&row);
+	printf("\nEnter the number of cols = ");
+	scanf("%d",&col);
 	
-	for(i=1;i<=terms-2;i++)
+	for(i=1;i<=row;i++)
 	{
-		num3 = num1 + num2;
-		printf("%d ",num3);
-		num1=num2;
-		num2=num3;
+		for(j=1;j<=col;j++)
+		{
+			printf("* ");	
+		}
+		printf("\n");
 	}
 	return 0;
 }

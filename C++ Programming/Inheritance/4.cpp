@@ -15,7 +15,7 @@ class Brother : public Parent
 class Sister : public Parent
 {
 };
-int main()
+int main() 
 {
 	Brother b;
 	Sister s;

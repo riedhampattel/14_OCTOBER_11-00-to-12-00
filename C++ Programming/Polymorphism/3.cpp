@@ -22,7 +22,10 @@ class Demo
 		}
 		Demo operator+(Demo &obj)
 		{
-			
+			Demo temp;
+			temp.n1 = n1 + obj.n1;
+			temp.n2 = n2 + obj.n2;
+			return temp;
 		}
 };
 int main()

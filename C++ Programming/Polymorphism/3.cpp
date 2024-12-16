@@ -2,9 +2,8 @@
 using namespace std;
 class Demo
 {
-	private :
-		int n1,n2;
 	public :
+		int n1,n2;
 		Demo()
 		{
 			n1=0;
@@ -30,17 +29,17 @@ class Demo
 };
 int main()
 {
+	int x=10,y=20;
+	int z = x + y;
 	Demo d1;
 	d1.display();
-	Demo d2(1,4);
+	Demo d2(14,15);
 	d2.display();
-	int x=10;
-	int y=20;
-	int z=x+y;
-	cout<<"\nZ = "<<z;
-	Demo d3=d1+d2;
+	Demo d3 = d1 + d2;
+	cout<<"\nValues in object d3 :=";
 	d3.display();
-	Demo d4=d2+d3;
+	Demo d4 = d2 + d3;
+	cout<<"\nValues in object d4 :=";
 	d4.display();
 	return 0;
 }

@@ -19,7 +19,7 @@ class Demo
 			cout<<"\nValue of n1 = "<<n1;
 			cout<<"\nValue of n2 = "<<n2;
 		}
-		Demo operator-(Demo &obj)
+		Demo operator&&(Demo &obj)
 		{
 			Demo temp;
 			temp.n1 = n1 - obj.n1;

@@ -1,4 +1,5 @@
 #include<iostream>
+//aggregation
 using namespace std;
 class Student
 {

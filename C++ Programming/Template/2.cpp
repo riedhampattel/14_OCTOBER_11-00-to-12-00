@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 template <typename T,int size>
-void soring(T arr[],int size)
+void sorting(T (&arr)[size])
 {
     int i,j;
     for(i=0;i<size;i++)
@@ -25,10 +25,23 @@ int main()
     {
         cout<<a[i]<<" ";
     }
-    sorting(a,5);
+    sorting(a);
     cout<<"\nAfter sorting := ";
     for(i=0;i<5;i++)
     {
         cout<<a[i]<<" ";
+    }
+
+    char ch[5]={'A','Z','T','B','S'};
+    cout<<"\nBefore sorting := ";
+    for(i=0;i<5;i++)
+    {
+        cout<<ch[i]<<" ";
+    }
+    sorting(ch);
+    cout<<"\nAfter sorting := ";
+    for(i=0;i<5;i++)
+    {
+        cout<<ch[i]<<" ";
     }
 }

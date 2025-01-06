@@ -73,3 +73,7 @@ select department_id,max(salary) from employees group by department_id having ma
 select * from employees order by salary desc limit 5;
 
 select * from employees order by salary desc limit 10 offset 5;
+
+select first_name,last_name from employees;
+
+select concat(first_name,' ',last_name) as full_name from employees;

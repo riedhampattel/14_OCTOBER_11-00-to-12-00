@@ -49,5 +49,5 @@ for each row
 insert into copied values(new.id,new.name,curtime());
 
 select * from demo;
-
+	
 select * from copied;

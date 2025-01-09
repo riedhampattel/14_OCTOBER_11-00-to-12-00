@@ -26,4 +26,4 @@ alter table employees modify hire_date varchar(25) not null;
 
 select * from employees;
 
-update employees set hire_date = date_format(hire_date,'%d-%b-%yy');
+update employees set hire_date = date_format(hire_date,'%d-%b-%y');

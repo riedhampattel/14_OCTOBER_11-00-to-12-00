@@ -21,3 +21,9 @@ select * from employees;
 
 delete from employees where last_name = 'King';
 select * from employees;
+
+alter table employees modify hire_date varchar(25) not null;
+
+select * from employees;
+
+update employees set hire_date = date_format(hire_date,'%d-%b-%yy');

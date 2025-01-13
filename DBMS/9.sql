@@ -192,6 +192,7 @@ ROW = 5
 * * * * *
 */
 
+
 /* WRITE A PROGRAM TO PRINT THIS PATTERN (DECLARE ROW NUMBERS)
 ROW = 5
     * 

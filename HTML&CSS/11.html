@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meta selector & specificity</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+    *
+    {
+        color: crimson;
+        font-size: 25px;
+        text-shadow: 0px 0px 5px black;
+    }
+    p,blockquote
+    {
+        color: brown;
+        background-color: black;
+    }
+    p
+    {
+        color: aquamarine;
+        background-color: blueviolet;
+    }
+    .para
+    {
+        color: bisque;
+        background-color: darkblue;
+    }
+    #para1
+    {
+        color: burlywood;
+        background-color: black;
+    }
+</style>
+<body>
+    <p id="para1" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aliquid minima qui dolorum velit repellendus culpa maiores temporibus, exercitationem quo libero excepturi impedit similique sed magni blanditiis fugit numquam repellat officiis vel? Nemo fugiat, consequatur sed, quos distinctio rem id commodi omnis esse eveniet facere dolor ullam maxime natus veniam.</p>
+    <hr>
+    <p id="para2" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aliquid minima qui dolorum velit repellendus culpa maiores temporibus, exercitationem quo libero excepturi impedit similique sed magni blanditiis fugit numquam repellat officiis vel? Nemo fugiat, consequatur sed, quos distinctio rem id commodi omnis esse eveniet facere dolor ullam maxime natus veniam.</p>
+    <hr>
+    <p id="para3" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aliquid minima qui dolorum velit repellendus culpa maiores temporibus, exercitationem quo libero excepturi impedit similique sed magni blanditiis fugit numquam repellat officiis vel? Nemo fugiat, consequatur sed, quos distinctio rem id commodi omnis esse eveniet facere dolor ullam maxime natus veniam.</p>
+    <hr>
+    <blockquote id="b1" class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aliquid minima qui dolorum velit repellendus culpa maiores temporibus, exercitationem quo libero excepturi impedit similique sed magni blanditiis fugit numquam repellat officiis vel? Nemo fugiat, consequatur sed, quos distinctio rem id commodi omnis esse eveniet facere dolor ullam maxime natus veniam.</blockquote>
+    <hr>
+    <blockquote id="b2" class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla aliquid minima qui dolorum velit repellendus culpa maiores temporibus, exercitationem quo libero excepturi impedit similique sed magni blanditiis fugit numquam repellat officiis vel? Nemo fugiat, consequatur sed, quos distinctio rem id commodi omnis esse eveniet facere dolor ullam maxime natus veniam.</blockquote>
+    <hr>
+    <b id="bold" class="temp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore similique in, suscipit dolores eius sunt obcaecati reprehenderit molestiae, perferendis ipsam voluptatum rerum ipsum sapiente fuga enim exercitationem incidunt magni, inventore excepturi! Quia, eius? Doloremque architecto labore itaque in, modi quidem aut iusto repudiandae, corrupti voluptatibus, quasi perspiciatis esse aliquam repellat?</b>
+    <br>
+    <hr>
+    <i id="emp" class="italic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas suscipit exercitationem laboriosam iure eaque quo qui aliquam blanditiis voluptatum maiores id maxime magnam delectus sed harum, pariatur enim accusamus consequatur fugiat dignissimos nulla minima similique alias voluptates! Reiciendis accusamus, ad, iusto aliquam maiores, earum non dolorum corporis nisi enim ratione.</i>
+</body>
+</html>

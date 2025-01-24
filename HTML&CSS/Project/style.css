@@ -86,7 +86,7 @@ header
 }
 .btn:hover
 {
-    transition: 0.5s ease;
+    transition: 0.5s ease;  
     width: 240px;
     height: 50px;
     box-shadow: 0px 0px 10px brown;
@@ -105,16 +105,31 @@ header
 }
 .photo
 {
-    margin-left: 45rem;
-    margin-top: -28rem;
+    position: absolute;
+    z-index: -1;
+    margin-left: 43rem;
+    margin-top: -31rem;
 }
 .photo img
 {
-    height: 550px;
+    height: 600px;
     background: none;
+    filter: drop-shadow(0px 0px 5px none);
 }
 .photo img:hover
 {
-    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 8px brown);
     transition: 0.5s ease;
+}
+.offer
+{
+    position: absolute;
+    z-index: 1;
+    top: 10rem;
+    margin: 0rem 5.5rem;
+}
+.offer marquee
+{
+    color: black;
+    background-color: bisque;
 }

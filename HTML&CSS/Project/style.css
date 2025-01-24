@@ -19,14 +19,31 @@ header
 {
     height: 150px;
 }
-#navbar
+#logo:hover
+{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+.navbar
 {
     margin-top: 60px;
     font-size: 20px;
 }
-#navbar a
+#active
+{
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+.navbar a
 {
     margin-right: 1.5rem;
+    border-bottom: 2px solid transparent;
+}
+.navbar a:hover
+{
+    transition: 0.5s ease;
+    color: brown;
+    border-bottom: 2px solid brown;
 }
 .title
 {
@@ -58,6 +75,18 @@ header
 {
     margin-left: 6rem;
     margin-top: 2rem;
+    width: 220px;
+    text-align: center;
+}
+.btn:hover
+{
+    transition: 0.5s ease;
+    text-shadow: 0px 0px 10px brown;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 20px;
+    width: 240px;
+    height: 50px;
 }
 .btn a
 {
@@ -72,10 +101,15 @@ header
 .photo
 {
     margin-left: 45rem;
-    margin-top: -30rem;
+    margin-top: -29rem;
 }
 .photo img
 {
     height: 550px;
     background: transparent;
+}
+.photo img:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }

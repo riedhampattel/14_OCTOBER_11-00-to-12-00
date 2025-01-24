@@ -73,43 +73,48 @@ header
 }
 .btn
 {
+    display: flex;
+    justify-content: center;
     margin-left: 6rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     width: 220px;
     text-align: center;
-}
-.btn:hover
-{
-    transition: 0.5s ease;
-    text-shadow: 0px 0px 10px brown;
-    color: brown;
-    border: 2px solid brown;
+    border: 3px solid brown;
     border-radius: 20px;
     width: 240px;
     height: 50px;
 }
+.btn:hover
+{
+    transition: 0.5s ease;
+    width: 240px;
+    height: 50px;
+    box-shadow: 0px 0px 10px brown;
+}
 .btn a
 {
+    margin-top: 0.2rem;
     font-size: 30px;
     font-weight: 600;
 }
 .btn i
 {
+    margin-top: 0.6rem;
     font-size: 28px;
     margin-right: 1rem;
 }
 .photo
 {
     margin-left: 45rem;
-    margin-top: -29rem;
+    margin-top: -28rem;
 }
 .photo img
 {
     height: 550px;
-    background: transparent;
+    background: none;
 }
 .photo img:hover
 {
     transform: scale(1.1);
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease;
 }

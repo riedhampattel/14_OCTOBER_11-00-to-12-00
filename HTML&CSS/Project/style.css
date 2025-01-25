@@ -137,7 +137,7 @@ header
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 4rem;
     margin: 2rem 5rem;
 }
 .card div img
@@ -183,5 +183,52 @@ header
 {
     transition: 0.5s ease;
     transform: scale(1.1);
-    
+
+}
+.new-main-card
+{
+    display: flex;
+    border: 2px solid brown;
+    margin: 3rem 5rem;
+    box-shadow: 5px 5px 3px brown;
+}
+.new-main-card img
+{
+    height: 400px;
+    background: none;
+}
+.new-main-card .content-part
+{
+    margin-top: 7rem;
+}
+.new-main-card .content-part h1
+{
+    font-size: 40px;
+}
+.new-main-card .content-part p
+{
+    font-size: 20px;
+    width: 600px;
+    margin-top: 2rem;
+}
+.card-footer
+{
+    display: flex;
+}
+.card-footer h1
+{
+    font-weight: 700;
+    color: brown;
+    margin-top: 2rem;
+}
+.card-footer button
+{
+    font-size: 25px;
+    border: 2px solid brown;
+    font-weight: 700;
+    height: 50px;
+    width: 200px;
+    margin-top: 2rem;
+    margin-left: 19rem;
+    box-shadow: 3px 3px 3px brown;
 }

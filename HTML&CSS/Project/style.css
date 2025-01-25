@@ -133,3 +133,55 @@ header
     color: black;
     background-color: bisque;
 }
+.card
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 2rem 5rem;
+}
+.card div img
+{
+    height: 250px;
+    background: none;
+}
+.card div img:hover
+{
+    transition: 0.5s ease;
+    filter: drop-shadow(0px 0px 10px brown);
+}
+.card div
+{
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px brown;
+}
+.card div:hover
+{
+    transition: 0.5s ease;
+    border: 2px solid rgb(0, 195, 255);
+    box-shadow: 0px 0px 10px rgb(0, 195, 255);
+}
+.card div p
+{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.card div button
+{
+    border: 2px solid brown;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin-top: 1.6rem;
+    margin-bottom: 2rem;
+    box-shadow: 3px 3px 2px brown;
+}
+.card div button:hover
+{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    
+}

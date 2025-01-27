@@ -232,3 +232,67 @@ header
     margin-left: 19rem;
     box-shadow: 3px 3px 3px brown;
 }
+.about-content
+{
+    margin: 0rem 5rem;
+}
+.about-content h1
+{
+    font-size: 35px;
+    border-bottom: 2px solid brown;
+}
+.about-content h3
+{
+    margin-top: 2.5rem;
+}
+.about-content p
+{
+    margin: 1rem 0rem;
+    line-height: 1.8;
+}
+.about-sub-content
+{
+    border-bottom: 2px solid brown;
+    margin-top: 5rem;
+}
+.main-contact
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 5rem 5rem 5rem;
+}
+.user-info 
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+.user-info table td
+{
+    padding: 1rem;
+}
+.user-info table td input
+{
+    padding: 0.5rem;
+    border: 2px solid brown;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px brown;
+}
+.user-info table input:focus
+{
+    border-color: 2px solid brown;
+}
+.sub
+{
+    text-align: center;
+    padding-top: 1rem;
+}
+.sub button
+{
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid brown;
+    padding: 0.5rem 1rem;
+    box-shadow: 3px 3px 3px brown;
+}

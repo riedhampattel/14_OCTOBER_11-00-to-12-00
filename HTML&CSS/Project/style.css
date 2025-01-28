@@ -297,3 +297,239 @@ input:focus
     padding: 0.5rem 1rem;
     box-shadow: 3px 3px 3px brown;
 }
+@media (max-width:430px)
+{
+    header
+    {
+        display: block;
+        margin: 0rem;
+        text-align: center;
+        width: 320px;
+    }
+    .navbar
+    {
+        text-align: center;
+        margin-top: -2rem;
+        margin-left: 1.2rem;
+        font-size: 15px;
+    }
+    .title
+    {
+        margin-left: 0rem;
+        margin-top: 20rem;
+        text-align: center;
+        width: 320px;
+    }
+    .title h1
+    {
+        font-size: 20px;
+    }
+    .title h3
+    {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .description
+    {
+        text-align: center;
+        margin-left: 0rem;
+        width: 315px;
+        margin-top: 2rem;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .btn
+    {
+        margin-left: 2.5rem;
+        margin-top: 2.5rem;
+    }
+    .photo
+    {
+        position: absolute;
+        z-index: 1;
+        margin: 0rem;
+        left: 0.6rem;
+        top: 1rem;
+    }
+    .photo img
+    {
+        height: 300px;
+    }
+    .offer
+    {
+        position: absolute;
+        z-index: 2;
+        top: 12rem;
+        margin: 0rem 1.1rem;
+        width: 280px;
+    }
+    .offer marquee
+    {
+        color: black;
+        background-color: bisque;
+    }
+    .card
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 4rem;
+        margin: 2rem 5rem;
+    }
+    .card div img
+    {
+        height: 250px;
+        background: none;
+    }
+    .card div img:hover
+    {
+        transition: 0.5s ease;
+        filter: drop-shadow(0px 0px 10px brown);
+    }
+    .card div
+    {
+        text-align: center;
+        border: 2px solid brown;
+        border-radius: 40px;
+        box-shadow: 0px 0px 10px brown;
+    }
+    .card div:hover
+    {
+        transition: 0.5s ease;
+        border: 2px solid rgb(0, 195, 255);
+        box-shadow: 0px 0px 10px rgb(0, 195, 255);
+    }
+    .card div p
+    {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .card div button
+    {
+        border: 2px solid brown;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0.5rem;
+        margin-top: 1.6rem;
+        margin-bottom: 2rem;
+        box-shadow: 3px 3px 2px brown;
+    }
+    .card div button:hover
+    {
+        transition: 0.5s ease;
+        transform: scale(1.1);
+    
+    }
+    .new-main-card
+    {
+        display: flex;
+        border: 2px solid brown;
+        margin: 3rem 5rem;
+        box-shadow: 5px 5px 3px brown;
+    }
+    .new-main-card img
+    {
+        height: 400px;
+        background: none;
+    }
+    .new-main-card .content-part
+    {
+        margin-top: 7rem;
+    }
+    .new-main-card .content-part h1
+    {
+        font-size: 40px;
+    }
+    .new-main-card .content-part p
+    {
+        font-size: 20px;
+        width: 600px;
+        margin-top: 2rem;
+    }
+    .card-footer
+    {
+        display: flex;
+    }
+    .card-footer h1
+    {
+        font-weight: 700;
+        color: brown;
+        margin-top: 2rem;
+    }
+    .card-footer button
+    {
+        font-size: 25px;
+        border: 2px solid brown;
+        font-weight: 700;
+        height: 50px;
+        width: 200px;
+        margin-top: 2rem;
+        margin-left: 19rem;
+        box-shadow: 3px 3px 3px brown;
+    }
+    .about-content
+    {
+        margin: 0rem 5rem;
+    }
+    .about-content h1
+    {
+        font-size: 35px;
+        border-bottom: 2px solid brown;
+    }
+    .about-content h3
+    {
+        margin-top: 2.5rem;
+    }
+    .about-content p
+    {
+        margin: 1rem 0rem;
+        line-height: 1.8;
+    }
+    .about-sub-content
+    {
+        border-bottom: 2px solid brown;
+        margin-top: 5rem;
+    }
+    .main-contact
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 0rem 5rem 5rem 5rem;
+    }
+    .user-info 
+    {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 3rem;
+        margin-right: 2rem;
+    }
+    .user-info table td
+    {
+        padding: 1rem;
+    }
+    .user-info table td input
+    {
+        padding: 0.5rem;
+        border: 2px solid brown;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px brown;
+    }
+    input:focus
+    {
+        background-color: beige;
+        color: black;
+    }
+    .sub
+    {
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .sub button
+    {
+        font-size: 20px;
+        font-weight: 700;
+        border: 2px solid brown;
+        padding: 0.5rem 1rem;
+        box-shadow: 3px 3px 3px brown;
+    }   
+}

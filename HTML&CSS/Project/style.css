@@ -297,6 +297,30 @@ input:focus
     padding: 0.5rem 1rem;
     box-shadow: 3px 3px 3px brown;
 }
+.change::before
+{
+    content: "";
+    animation: changes 5s infinite;
+}
+.change::after
+{
+    content: "";
+}
+@keyframes changes
+{
+    0%,50%
+    {
+        content: "575/-";
+    }
+    50%,100%
+    {
+        content: "400/-";
+    }
+    100%,0%
+    {
+        content: "575/-";
+    }
+}
 @media (max-width:430px)
 {
     header
